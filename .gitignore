@@ -28,3 +28,7 @@ rusty-tags.*
 
 # The target directory from Rust development
 /target/
+
+# Please don't upload keys.
+FirmwareEncryptionKey.pem
+FirmwareSigningKey.pem
