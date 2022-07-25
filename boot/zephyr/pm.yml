@@ -5,6 +5,11 @@ mcuboot:
   placement:
     before: [mcuboot_primary]
 
+keyvault:
+    size: 0x2000
+    placement:
+        after: [mcuboot_secondary]
+
 mcuboot_primary_app:
   # All images to be placed in MCUboot's slot 0 should be placed in this
   # partition
